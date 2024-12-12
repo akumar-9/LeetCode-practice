@@ -13,7 +13,7 @@ Output: 4
 I use binary search. At any given time, one half of the array is sorted, the other half is not. Find out the sorted half first. Check if target falls in this range. If yes, continue search on this half. Otherwise, continue search on the other half. This half will become the new sub-problem. 
 
 ### Time Complexity
-- **O(n)**: We half the search space after every iteration once so O(lgn).
+- **O(lgn)**: We half the search space after every iteration once so O(lgn).
 ### Space Complexity
 - **O(1)**: We use extra space few variables.
 

@@ -14,7 +14,7 @@ Output: 4
 Sorting helps. I sort the array to identify duplicates and simplify the process of finding triplets. I then fix one element and find the other two elements using two-pointer technique. One at the start and the other at the end. At each step, check if the sum of these three elements equal to zero. If yes, add the triplet to result list. Otherwise, check adjust the left or right pointer to get closer to the sum.
 
 ### Time Complexity
-- **O(n^2)**: Sorting take O(nlogn) time and Finding triplets take O(n^2) time.
+- **O(n^2)**: Sorting take O(nlogn) time and Finding triplets take O(n^2) time. So O(n^2 + nlogn)
 ### Space Complexity
 - **O(1)**: Assuming in-place sorting.
 

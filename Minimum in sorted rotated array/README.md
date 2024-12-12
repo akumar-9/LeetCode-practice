@@ -10,7 +10,7 @@ Input: nums = [3,4,5,1,2] Output: 1
 I use binary search. At any given time, one half of the array is sorted, the other half is not. The minimum will lie in the unsorted half.
 
 ### Time Complexity
-- **O(n)**: We half the search space after every iteration once so O(lgn).
+- **O(lgn)**: We half the search space after every iteration once so O(lgn).
 ### Space Complexity
 - **O(1)**: We use extra space few variables.
 
