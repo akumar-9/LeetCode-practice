@@ -18,6 +18,7 @@ Sort the intervals using start as the key. This keeps it clean. Two intervals [a
 - **O(1)**: We use few extra variables.
 
 ## Solution Code
+```C#
 public class Solution {
     public int EraseOverlapIntervals(int[][] intervals) {
         int removeCount = 0;

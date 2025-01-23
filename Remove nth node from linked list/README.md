@@ -14,6 +14,7 @@ I use a new `dummy` node to serve as a starting point of the new list. Use two p
 - **O(1)**: We use extra space few variables.
 
 ## Solution Code
+```C#
 /**
  * Definition for singly-linked list.
  * public class ListNode {

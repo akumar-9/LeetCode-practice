@@ -19,6 +19,7 @@ Use the tortoise and hare method(Floyd's Cycle detection method). Two pointers f
 - **O(1)**: We use extra space few variables.
 
 ## Solution Code
+```C#
 /**
  * Definition for singly-linked list.
  * public class ListNode {

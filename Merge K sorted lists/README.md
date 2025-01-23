@@ -16,6 +16,7 @@ I use a min-heap to store all the heads, get min element from the heap and add i
 - **O(k)**: Heap stores at most k elements at a time.
 
 ## Solution Code
+```C#
 /**
  * Definition for singly-linked list.
  * public class ListNode {

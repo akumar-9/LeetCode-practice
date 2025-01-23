@@ -21,6 +21,7 @@ It is a combination of 3 easy problems. (Easy #1)Find the middle of the list usi
 - **O(1)**: We use extra space few variables.
 
 ## Solution Code
+```C#
 /**
  * Definition for singly-linked list.
  * public class ListNode {

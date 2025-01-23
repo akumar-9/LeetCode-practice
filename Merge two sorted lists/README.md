@@ -19,7 +19,8 @@ I use a new dummy node to serve as a starting point of the merged list. Use a cu
 - **O(1)**: We use extra space few variables.
 
 ## Solution Code
-**
+```C#
+/**
  * Definition for singly-linked list.
  * public class ListNode {
  *     public int val;

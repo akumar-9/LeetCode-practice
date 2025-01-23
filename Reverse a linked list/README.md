@@ -15,6 +15,7 @@ Use iterative approach. Keep track of prev, curr and next. Save the next node. R
 - **O(1)**: We use extra space few variables.
 
 ## Solution Code
+```C#
 /**
  * Definition for singly-linked list.
  * public class ListNode {
