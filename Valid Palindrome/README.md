@@ -22,11 +22,11 @@ public class Solution {
         while( l < r){
             if(!Char.IsLetterOrDigit(s, l)){        // take a look at this static method, it takes string and an index
                 l++;
-                continue;
+                continue; // can't I just use while instead of if statement? yes you can!  while (l < r && !Char.IsLetterOrDigit(s[l])) l++;
             }
-            if(!Char.IsLetterOrDigit(s,r)){
-                r--;
-                continue;
+            if(!Char.IsLetterOrDigit(s,r)){ // while (l < r && !Char.IsLetterOrDigit(s[l])) {
+                r--;                       //       l++;            
+                continue;                 //   }
             }
             if( Char.ToLower(s[l]) != Char.ToLower(s[r])){
                 return false;
