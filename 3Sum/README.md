@@ -25,7 +25,7 @@ public class Solution {
         IList<IList<int>> result = new List<IList<int>>();
         Array.Sort(nums);
         for(int i = 0; i< nums.Length; i++){
-            if( i > 0 && nums[i] == nums[i-1]) //skip duplicates
+            if( i > 0 && nums[i] == nums[i-1]) //skip duplicate triplet that start with same num
                 continue;   
             int l = i+1;
             int r = nums.Length-1;
@@ -39,7 +39,7 @@ public class Solution {
                     result.Add(new List<int> {nums[i],nums[l], nums[r]});
                     l++;
                     r--;
-                    while(nums[l] == nums[l-1] && l < r) // skip duplicates
+                    while(nums[l] == nums[l-1] && l < r) // skip duplicates because we don't need a duplicate triplet in result
                         l++;
                     while(nums[r] == nums[r+1] && l < r) //skip duplicates
                         r--;
